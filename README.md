@@ -1,2 +1,2 @@
 # TWBitCalculator
-TWBitCalculator-TooWalkerBitCalculator
+TooWalkerBitCalculator
