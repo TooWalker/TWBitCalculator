@@ -105,6 +105,7 @@
 		44E317581D178D5C00D4F7D5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TW;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = TooWalker;
 				TargetAttributes = {
@@ -264,6 +265,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TWBitCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TooWalker.TWBitCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,6 +277,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TWBitCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TooWalker.TWBitCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
