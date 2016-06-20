@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TWViewController.h
 //  TWBitCalculator
 //
 //  Created by TooWalker on 6/20/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TWViewController : UIViewController
 
 @end
-
