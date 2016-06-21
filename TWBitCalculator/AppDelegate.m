@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "TWViewController.h"
+#import "TWMainTabBarC.h"
 @interface AppDelegate ()
 
 @end
@@ -17,7 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    TWViewController *VC = [[TWViewController alloc] init];
+    TWMainTabBarC *VC = [[TWMainTabBarC alloc] init];
     self.window.rootViewController = VC;
     [self.window makeKeyAndVisible];
     return YES;

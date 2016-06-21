@@ -11,7 +11,9 @@
 		44E317681D178D5C00D4F7D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E317671D178D5C00D4F7D5 /* AppDelegate.m */; };
 		44E317701D178D5C00D4F7D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44E3176F1D178D5C00D4F7D5 /* Assets.xcassets */; };
 		44E317731D178D5C00D4F7D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44E317711D178D5C00D4F7D5 /* LaunchScreen.storyboard */; };
-		44E3177C1D17B9A700D4F7D5 /* TWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E3177B1D17B9A700D4F7D5 /* TWViewController.m */; };
+		44E317A51D19529D00D4F7D5 /* TWMainTabBarC.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E317A41D19529D00D4F7D5 /* TWMainTabBarC.m */; };
+		44E317A81D19532900D4F7D5 /* TWCalculatorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E317A71D19532900D4F7D5 /* TWCalculatorVC.m */; };
+		44E317AB1D19534F00D4F7D5 /* TWSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E317AA1D19534F00D4F7D5 /* TWSettingVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +24,12 @@
 		44E3176F1D178D5C00D4F7D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44E317721D178D5C00D4F7D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44E317741D178D5C00D4F7D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		44E3177A1D17B9A700D4F7D5 /* TWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWViewController.h; sourceTree = "<group>"; };
-		44E3177B1D17B9A700D4F7D5 /* TWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWViewController.m; sourceTree = "<group>"; };
+		44E317A31D19529D00D4F7D5 /* TWMainTabBarC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWMainTabBarC.h; sourceTree = "<group>"; };
+		44E317A41D19529D00D4F7D5 /* TWMainTabBarC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWMainTabBarC.m; sourceTree = "<group>"; };
+		44E317A61D19532900D4F7D5 /* TWCalculatorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWCalculatorVC.h; sourceTree = "<group>"; };
+		44E317A71D19532900D4F7D5 /* TWCalculatorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWCalculatorVC.m; sourceTree = "<group>"; };
+		44E317A91D19534F00D4F7D5 /* TWSettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWSettingVC.h; sourceTree = "<group>"; };
+		44E317AA1D19534F00D4F7D5 /* TWSettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWSettingVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +64,12 @@
 			children = (
 				44E317661D178D5C00D4F7D5 /* AppDelegate.h */,
 				44E317671D178D5C00D4F7D5 /* AppDelegate.m */,
-				44E3177A1D17B9A700D4F7D5 /* TWViewController.h */,
-				44E3177B1D17B9A700D4F7D5 /* TWViewController.m */,
+				44E317A31D19529D00D4F7D5 /* TWMainTabBarC.h */,
+				44E317A41D19529D00D4F7D5 /* TWMainTabBarC.m */,
+				44E317A61D19532900D4F7D5 /* TWCalculatorVC.h */,
+				44E317A71D19532900D4F7D5 /* TWCalculatorVC.m */,
+				44E317A91D19534F00D4F7D5 /* TWSettingVC.h */,
+				44E317AA1D19534F00D4F7D5 /* TWSettingVC.m */,
 				44E3176F1D178D5C00D4F7D5 /* Assets.xcassets */,
 				44E317711D178D5C00D4F7D5 /* LaunchScreen.storyboard */,
 				44E317741D178D5C00D4F7D5 /* Info.plist */,
@@ -147,8 +157,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				44E317681D178D5C00D4F7D5 /* AppDelegate.m in Sources */,
+				44E317A81D19532900D4F7D5 /* TWCalculatorVC.m in Sources */,
 				44E317651D178D5C00D4F7D5 /* main.m in Sources */,
-				44E3177C1D17B9A700D4F7D5 /* TWViewController.m in Sources */,
+				44E317AB1D19534F00D4F7D5 /* TWSettingVC.m in Sources */,
+				44E317A51D19529D00D4F7D5 /* TWMainTabBarC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +303,7 @@
 				44E317791D178D5C00D4F7D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

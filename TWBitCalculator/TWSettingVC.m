@@ -1,22 +1,22 @@
 //
-//  TWViewController.m
+//  TWSettingVC.m
 //  TWBitCalculator
 //
-//  Created by TooWalker on 6/20/16.
+//  Created by TooWalker on 6/21/16.
 //  Copyright © 2016 TooWalker. All rights reserved.
 //
 
-#import "TWViewController.h"
+#import "TWSettingVC.h"
 
-@interface TWViewController ()
+@interface TWSettingVC ()
 
 @end
 
-@implementation TWViewController
+@implementation TWSettingVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.view.backgroundColor = [UIColor greenColor];
 }
 
 - (void)didReceiveMemoryWarning {
