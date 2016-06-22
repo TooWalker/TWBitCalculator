@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>scanf函数的使用.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>44E3175F1D178D5C00D4F7D5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>44FC32EC1D1ABC4A0000B4E5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

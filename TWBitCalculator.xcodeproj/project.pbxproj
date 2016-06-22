@@ -14,7 +14,20 @@
 		44E317A51D19529D00D4F7D5 /* TWMainTabBarC.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E317A41D19529D00D4F7D5 /* TWMainTabBarC.m */; };
 		44E317A81D19532900D4F7D5 /* TWCalculatorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E317A71D19532900D4F7D5 /* TWCalculatorVC.m */; };
 		44E317AB1D19534F00D4F7D5 /* TWSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E317AA1D19534F00D4F7D5 /* TWSettingVC.m */; };
+		44FC32F01D1ABC4A0000B4E5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 44FC32EF1D1ABC4A0000B4E5 /* main.c */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		44FC32EB1D1ABC4A0000B4E5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		44E317601D178D5C00D4F7D5 /* TWBitCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TWBitCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -30,10 +43,19 @@
 		44E317A71D19532900D4F7D5 /* TWCalculatorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWCalculatorVC.m; sourceTree = "<group>"; };
 		44E317A91D19534F00D4F7D5 /* TWSettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWSettingVC.h; sourceTree = "<group>"; };
 		44E317AA1D19534F00D4F7D5 /* TWSettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWSettingVC.m; sourceTree = "<group>"; };
+		44FC32ED1D1ABC4A0000B4E5 /* scanf函数的使用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "scanf函数的使用"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44FC32EF1D1ABC4A0000B4E5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		44E3175D1D178D5C00D4F7D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44FC32EA1D1ABC4A0000B4E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				44E317621D178D5C00D4F7D5 /* TWBitCalculator */,
+				44FC32EE1D1ABC4A0000B4E5 /* scanf函数的使用 */,
 				44E317611D178D5C00D4F7D5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				44E317601D178D5C00D4F7D5 /* TWBitCalculator.app */,
+				44FC32ED1D1ABC4A0000B4E5 /* scanf函数的使用 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,6 +110,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		44FC32EE1D1ABC4A0000B4E5 /* scanf函数的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				44FC32EF1D1ABC4A0000B4E5 /* main.c */,
+			);
+			path = "scanf函数的使用";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +138,23 @@
 			productReference = 44E317601D178D5C00D4F7D5 /* TWBitCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
+		44FC32EC1D1ABC4A0000B4E5 /* scanf函数的使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44FC32F31D1ABC4A0000B4E5 /* Build configuration list for PBXNativeTarget "scanf函数的使用" */;
+			buildPhases = (
+				44FC32E91D1ABC4A0000B4E5 /* Sources */,
+				44FC32EA1D1ABC4A0000B4E5 /* Frameworks */,
+				44FC32EB1D1ABC4A0000B4E5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "scanf函数的使用";
+			productName = "scanf函数的使用";
+			productReference = 44FC32ED1D1ABC4A0000B4E5 /* scanf函数的使用 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -117,6 +166,9 @@
 				ORGANIZATIONNAME = TooWalker;
 				TargetAttributes = {
 					44E3175F1D178D5C00D4F7D5 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					44FC32EC1D1ABC4A0000B4E5 = {
 						CreatedOnToolsVersion = 7.3;
 					};
 				};
@@ -135,6 +187,7 @@
 			projectRoot = "";
 			targets = (
 				44E3175F1D178D5C00D4F7D5 /* TWBitCalculator */,
+				44FC32EC1D1ABC4A0000B4E5 /* scanf函数的使用 */,
 			);
 		};
 /* End PBXProject section */
@@ -161,6 +214,14 @@
 				44E317651D178D5C00D4F7D5 /* main.m in Sources */,
 				44E317AB1D19534F00D4F7D5 /* TWSettingVC.m in Sources */,
 				44E317A51D19529D00D4F7D5 /* TWMainTabBarC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44FC32E91D1ABC4A0000B4E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44FC32F01D1ABC4A0000B4E5 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +345,26 @@
 			};
 			name = Release;
 		};
+		44FC32F11D1ABC4A0000B4E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		44FC32F21D1ABC4A0000B4E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -304,6 +385,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		44FC32F31D1ABC4A0000B4E5 /* Build configuration list for PBXNativeTarget "scanf函数的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44FC32F11D1ABC4A0000B4E5 /* Debug */,
+				44FC32F21D1ABC4A0000B4E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
