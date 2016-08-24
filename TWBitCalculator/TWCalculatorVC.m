@@ -115,10 +115,6 @@
             btn.layer.borderWidth = 1;
         }
     }
-
-    
-    
-
 }
 
 - (void)didReceiveMemoryWarning {
